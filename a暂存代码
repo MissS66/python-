@@ -1,0 +1,24 @@
+pic=movie.find(name="img").get("src")#获取图片
+print(pic)
+path=filmname+".jpg"
+print(path)
+pic_r=requests.get(pic)
+with open(path,"wb") as f:
+    f.write(pic_r.content)
+print("图片保存成功！")
+
+
+urls=["https://movie.douban.com/top250?start={}&filter=".format(i) for i in range(0,250,25)]
+for url in urls:
+
+
+    time=star_split[1].split("\n")[1][-17:-13]
+print(time)
+country=star_split[1].split("\n")[1][-10:-7]
+print(country)
+kind=star_split[1].split("\n")[1][-5:]
+print(kind)
+score=movie.find('span',class_="rating_num").get_text()
+print(score)
+evaluate=movie.find('span',class_="inq").get_text()
+print(evaluate)
