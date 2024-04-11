@@ -1,0 +1,17 @@
+BusinessTravel：商务差旅频率，Non-Travel表示不出差，Travel_Rarely表示不经常出差，Travel_Frequently表示经常出差；
+
+Department：员工所在部门，Sales表示销售部，Research & Development表示研发部，Human Resources表示人力资源部；
+
+EducationField：员工所学习的专业领域，Life Sciences表示生命科学，Medical表示医疗，Marketing表示市场营销，Technical Degree表示技术学位，Human Resources表示人力资源，Other表示其他；
+
+Gender：员工性别，Male表示男性，Female表示女性；
+
+JobRole：工作角色：Sales Executive是销售主管，Research Scientist是科学研究员，Laboratory Technician实验室技术员，Manufacturing Director是制造总监，Healthcare Representative是医疗代表，Manager是经理，Sales Representative是销售代表，Research Director是研究总监，Human Resources是人力资源；
+
+
+MaritalStatus：员工婚姻状况，Single代表单身，Married代表已婚，Divorced代表离婚；
+
+OverTime：是否加班，Yes表示加班，No表示不加班；
+
+
+
